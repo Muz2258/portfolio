@@ -1,0 +1,107 @@
+/* Universal styling */
+
+* {
+    font-family: Realist, century-gothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #403D39;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    height: 100vh;
+    background-color: #FFFCF2;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Left pane styling */
+
+.leftPane {
+    position: fixed;
+    display: block;
+    width: 16.6667vw;
+    height: auto;
+    top: 20.832vh;
+    left: 8.33vw;
+    padding-right: 3.34vw;
+}
+
+.leftPane h3 {
+    font-family: realist;
+    color: #2C750F;
+    font-size: 1.25vw;
+}
+
+#socialConnect {
+    display: block;
+    margin-top: 1.63vw;
+}
+
+#socialConnect p {
+    font-family: realist;
+    display: inline-block;
+    padding-bottom: 0.64vw;
+    font-size: 0.8rem;
+}
+
+.icon {
+    margin-right: 0.64vw;
+    width: 0.86vw;
+    height: auto;
+}
+
+.icon:hover .a {
+    fill: #C14953;
+}
+
+
+/* Main content area styling */
+
+.mainContentArea {
+    grid-column: 4/span 5;
+    margin-top: 8.33vh;
+}
+
+.summary {
+    display: block;
+    margin-top: 1.667vw;
+    margin-bottom: 5vw;
+}
+
+#article h1 {
+    font-family: realist;
+    font-weight: 100;
+    font-size: 2.92vw;
+    padding-bottom: 1.667vw;
+    margin-top: 1.25vw;
+}
+
+#article h2 {
+    font-family: realist;
+    font-weight: 600;
+    font-size: 1.667vw;
+    padding-top: 1.25vw;
+    padding-bottom: 0.625vw;
+}
+
+#article h3 {
+    font-family: realist;
+    font-weight: 600;
+    font-size: 1.25vw;
+    padding-top: 0.625vw;
+    padding-bottom: 0.625vw;
+}
+
+#article p {
+    font-family: century-gothic;
+    font-size: 1.04vw;
+    line-height: 1.77vw;
+    text-align: justify;
+    padding-top: 0.625vw;
+    padding-bottom: 1.25vw;
+}
