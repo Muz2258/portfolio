@@ -105,3 +105,12 @@ a {
     padding-top: 0.625vw;
     padding-bottom: 1.25vw;
 }
+
+.expansion {
+    display: block;
+    margin-bottom: 1.6vw;
+}
+
+.expansionLayer {
+    display: none;
+}
