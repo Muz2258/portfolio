@@ -9,10 +9,32 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="identity">
+        <div id="pattern"></div>
+        <img id="logo-mark" src="Elements/Logo_mark.svg" alt="Designs by emamuzo okerri - Logo">
+    </div>
     <div class="leftPane">
         <h3>Table of Content</h3>
-        <div id="TOC"></div>
+        <div id="TOC">
+            <ul class="root">
+                <li class="active"><a href="#summary">Summary</a></li>
+                <li><a href="#About">About Woklyn</a></li>
+                <li><a href="#Request">The request</a></li>
+                <li><a href="#process">The process</a>
+                    <ul class="level-1">
+                        <li><a href="#client-interview">Client interview</a></li>
+                        <li><a href="#preparations">Preparations & team briefing</a></li>
+                        <li><a href="#questionnaire">Asking the right questions</a></li>
+                        <li><a href="#participants">Recruiting participants</a></li>
+                        <li><a href="#interviews">Interview sessions</a></li>
+                        <li><a href="#analysis">Research data analysis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#conclusions">Conclusion & recommendations</a></li>
+            </ul>
+        </div>
         <div id="socialConnect">
+            <hr>
             <p>Connect with me on:</p>
             <div id="mediaIcon">
                 <a href="" class="icon">
@@ -29,22 +51,27 @@
     </div>
 
     <div class="mainContentArea">
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li>Woklyn</li>
+        </ul>
         <article id="article">
             <h1>Woklyn: a decision to go digtal</h1>
             <hr>
-            <h3 slot="h-1">Summary</h3>
+            <h3 id="summary">Summary</h3>
             <p>Woklyn’s request was to design a mobile app that will facilitate their transition into becoming a digital laundry service provider. Which seemed like the best of moves at the time. However, after some time of research, it turned out that they needed to redesign the internal process of their service to enhance customer trust and satisfaction before looking back into going digital.</p>
 
-            <h2 slot="h-2">About Woklyn</h2>
+            <h2 id="About">About Woklyn</h2>
             <p>Woklyn is a small laundry service provider within the city of Port harcourt, Nigeria. The business is a little over a year old. The business is founded on the principles of customer satisfaction and excellent service delivery at the cheapest possible rate.</p>
 
-            <h2 slot="h-3">The request</h2>
-            <p>“We are looking to scale our business. But in the most cost effective way. And we believe that going digital is the way to go.” so they said to me. Sounds really interesting I guess. However, my primary goal for any project is to ensure that I help my clients achieve their goals by helping them tackle the right problems. With this in mind, I discussed my process (A mixture of Human Centered Design (HCD) and Double Diamond) with them, and I was given the go ahead to kick off.</p>
+            <h2 id="Request">The request</h2>
+            <p>“We are looking to scale our business. But in the most cost effective way. And we believe that going digital is the way to go.” so they said to me. Sounds really interesting I guess. However, my primary goal for any project is to ensure that my clients achieve their goals by helping them tackle the right problems. With this in mind, I discussed my process (Human Centered Design - HCD) with them, and I was given the go ahead to kick off.</p>
 
-            <h2 slot="h-3">The process</h2>
-            <h3 slot="sh-3-1">Client interview</h3>
+            <h2 id="process">The process</h2>
+            <h3 id="client-interview">Client interview</h3>
             <p>My first line of action when faced with clients like Woklyn is to have a discussion with them having two goals in mind - Get a clearer understanding of what they are looking to achieve and gather information on what they know about their target audience or existing customers. This helps me decide the approach and direction to take throughout the project.</p>
-            <a href="" class="expansion">View detailed outcome of interview</a>
+            <a href="#interviewOutcome" class="expansion">View outcome of interview</a>
 
             <div class="expansionLayer" id="interviewOutcome">
                 <h2>Client interview outcome</h2>
@@ -62,31 +89,56 @@
                 </ul>
             </div>
             
-            <h3>Preparations & team briefing</h3>
+            <h3 id="preparations">Preparations & team briefing</h3>
             <p>I had the privilege of having two design research interns work with me on this project. To kick-off the project a briefing on the project was sent to the interns with 1 week to study and prepare for our 3 month long research adventure.</p>
 
-            <h3>Asking the right questions</h3>
+            <h3 id="questionnaire">Asking the right questions</h3>
             <p>Leading the team, I facilitated brainstorming sessions based on the combination of a variant of the 10-for-10 brainstorming technique (something I learnt from AJ&Smart) and mind mapping. We had the sessions over the internet using miro and google docs to prepare the final questionnaire. <br><br>
             The goal was to come up with questions that would spark up a conversation around topics relevant to laundry and laundry service providers so we could dig deep into the minds of customers.</p>
             <a href="" class="expansion">View questionnaire</a>
             <div class="expansionLayer" id="questionnaire"></div>
 
-            <img src="Elements/Images/Articles/Qestionnaire miro 2.png" alt="" class="split-2">
-            <img src="Elements/Images/Articles/Qestionnaire miro 1.png" alt="" class="split-2">
-            <br>
+            <img src="Elements/Images/Articles/Qestionnaire miro 2.png" alt="Image of miro board during preparation of questionnaire" class="full-width">
+            <figcaption>Image of miro board during preparation of questionnaire</figcaption>
+            <img src="Elements/Images/Articles/Qestionnaire miro 1.png" alt="Image of miro board with selected questions for questionnaire" class="full-width">
+            <figcaption>Image of miro board with selected questions for questionnaire</figcaption>
 
-            <h3>The analysis</h3>
+            <h3 id="participants">Recruiting participants</h3>
+            <p>We took advantage of our network of friends, selecting the ones that meet the criteria for a typical customer of a laundry service provider in Nigeria. We all sent messages to each of our contacts that fit the criteria. The plan was to get at least 10 participants but ended up getting 8 people to agree to the interviews out of which only 6 turned up.</p>
+            
+            <h3 id="interviews">Interview sessions</h3>
+            <p>Based on certain requests by the participant we had 3 of the 6 sessions on whatsapp while the rest was done using zoom.</p>
+
+            <h3 id="data analysis">Research data analysis</h3>
             <p>After transcribing each of the 6 recordings and collating our notes, I led the team through the analysis process. The analysis method used here was Thematic analysis. <br><br>
             With the help of google docs and miro, we collaboratively and remotely pulled out striking information regarding the experiences, expectations, frustrations and motivations from the documents grouping them into themes. At the end of the analysis, we spotted 7 themes/patterns which centered around behavioral patterns and emotional response to laundry activities and laundry service providers. Out of these 7 themes we were able to make out 5 personas.</p>
             <a href="" class="expansion">View personas</a>
             <a href="" class="expansion">View customer journey maps</a>
 
-            <h2>Conclusion & recommendations</h2>
+            <img src="Elements/Images/Articles/Thematic analysis 1.png" alt="Image of miro board during research data analysis (a)" class="full-width">
+            <figcaption>Image of miro board during research data analysis (a)</figcaption>
+
+            <img src="Elements/Images/Articles/Thematic analysis 2.png" alt="Image of miro board during research data analysis (b)" class="full-width">
+            <figcaption>Image of miro board during research data analysis (b)</figcaption>
+
+            <h2 id="conclusions">Conclusion & recommendations</h2>
             <p>"You can't build a great building on a weak foundation. You must have a solid foundation if you're going to have a strong superstructure." - Gordon B. Hinckley. <br><br>
-            Judging from the insights gathered from the study - Click to view insights - we proposed a closer look and possible redesign of their existing service delivery system which forms the foundations of the business. Before going ahead to design a digital version that would serve customers in a unique and satisfying way.</p>
+            Judging from the insights gathered from the study - <a href="" class="expansion" id="insights">Click to view insights</a>  - we proposed a closer look and redesign of their existing service delivery system which forms the foundations of the business, before going ahead to design a digital version that would serve customers in a unique and satisfying way.</p>
         </article>
     </div>
 
     <div class="otherProjects"></div>
+
+    <!-- <script type="text/javascript">
+        const tocHeadings = document.querySelectorAll('.root li');
+        const tocLevel1 = document.querySelectorAll('.level-1 li');
+
+        tocHeadings.forEach(li => {
+            li.addEventListener('click', () => {
+                li.classList.remove('active');
+                li.classList.add('active');
+            })
+        })
+    </script> -->
 </body>
 </html>
